@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdlib.h>
+#include <stdlib.h> /* Using random number */
 using namespace std;
 int main()
 {
