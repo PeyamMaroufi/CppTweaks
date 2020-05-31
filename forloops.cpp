@@ -21,4 +21,10 @@ int main()
         sum += i;
     }
     cout << sum << endl;
+
+    /* Fibonacci numbers */
+    int f_0, f_1, temp;
+    cout << "\n\nFibonacci numbers one liner\n";
+    for (f_0 = 0, f_1 = 1; f_0 <= 100; temp = f_1, f_1 += f_0, f_0 = temp, cout << f_1 << endl)
+        ;
 }
